@@ -60,9 +60,7 @@ import java.util.List;
             MaintenanceTask task = new MaintenanceTask(
                     Integer.parseInt(cursor.getString(0)),  // Id
                     cursor.getString(1),                    // Task name
-                    cursor.getString(2),                    // Additional info
-                    cursor.getString(3),                    // Frequency
-                    cursor.getString(4)                     // Next date
+                    cursor.getString(2)                    // Additional info
             );
 
             cursor.close();

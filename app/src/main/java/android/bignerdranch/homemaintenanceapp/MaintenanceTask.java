@@ -8,11 +8,11 @@ public class MaintenanceTask {
 
     public MaintenanceTask() {}
 
-    public MaintenanceTask(String task, String nextDate, String frequency, String additionalInfo) {
+    public MaintenanceTask(String task, String additionalInfo) {
         this.mTask = task;
         this.mAdditionalInfo = additionalInfo;
     }
-    public MaintenanceTask(int id, String task, String nextDate, String frequency, String additionalInfo) {
+    public MaintenanceTask(int id, String task, String nextDate, String additionalInfo) {
         this.mId = id;
         this.mTask = task;
         this.mAdditionalInfo = additionalInfo;
@@ -22,6 +22,9 @@ public class MaintenanceTask {
     }
 
     public MaintenanceTask(int taskId, String nextDate, int displayToDb, String additionalInfo) {
+    }
+
+    public MaintenanceTask(int parseInt, String string, String string1) {
     }
 
     public int getId() {

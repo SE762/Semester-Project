@@ -74,21 +74,22 @@ public class MainActivity extends ListActivity {
      * Populate the list with dummy content for testing.
      */
     private void populateList() {
-        /* DatabaseHandler db = new DatabaseHandler(this);
-                db.addMaintenanceTask(new MaintenanceTask("Clean chimney", "Capitol Area Chimney Sweep\nphone:717-555-1212"));
+     /*
+         DatabaseHandler db = new DatabaseHandler(this);
+                db.addMaintenanceTask(new MaintenanceTask("Clean chimney", "Capitol Area Chimney Sweep\nphone: 555-1212"));
                 db.addMaintenanceTask(new MaintenanceTask("Change Reverse Osmosis Filters", null));
                 db.addMaintenanceTask(new MaintenanceTask("Change whole house water filter", "Walmart's filters are cheapest"));
                 db.addMaintenanceTask(new MaintenanceTask("Clean gutters", null));
                 db.addMaintenanceTask(new MaintenanceTask("Clean AC filters", null));
-                db.addMaintenanceTask(new MaintenanceTask("Pump septic tank", "Baymont On-call - 717-555-1212"));
+                db.addMaintenanceTask(new MaintenanceTask("Pump septic tank", "Ray", "On-call 555-1212"));
                 db.addMaintenanceTask(new MaintenanceTask("Clean oven", null));
                 db.addMaintenanceTask(new MaintenanceTask("Flush hot water heater", null));
-                db.addMaintenanceTask(new MaintenanceTask("Service lawn mower", "Mower guy - 717-555-1212"));
-                db.addMaintenanceTask(new MaintenanceTask("Service chainsaw",  "Mower guy - 717-555-1212"));
-                db.addMaintenanceTask(new MaintenanceTask("Service weed whacker", "Mower guy - 717-555-1212"));
+                db.addMaintenanceTask(new MaintenanceTask("Service lawn mower", "Mower guy 555-1212"));
+                db.addMaintenanceTask(new MaintenanceTask("Service chainsaw",  "Mower guy 555-1212"));
+                db.addMaintenanceTask(new MaintenanceTask("Service weed whacker", "Mower guy 555-1212"));
                 db.addMaintenanceTask(new MaintenanceTask("Prune bushes", null));
                 db.addMaintenanceTask(new MaintenanceTask("Winterize AC", null));
-        */
+     */
     }
 
 }// end public class MainActivity extends ListActivity.
